@@ -1,0 +1,152 @@
+/* Write your CSS here! */
+header {
+    text-align: center
+}
+/*DO NOT REMOVE the 3 items below. LINE 6 - 21*/
+#mainHeading {
+    color:red
+}
+
+body {
+    margin: 8px;
+}
+
+.funParagraph {
+    color: green
+}
+
+#testP {
+    margin-top: 50px;
+}
+
+/*Start coding below.*/
+
+nav {
+    display: inline-block;
+    padding: 10px;
+}
+
+a:link {
+    color: blue;
+}
+a:visited {
+    color: teal;
+}
+a:hover {
+    color: red;
+}
+a:active {
+    color: green;
+}
+
+h2 {
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+h3 {
+    margin-left: 50px;
+}
+
+ul {
+    margin-left: 50px;
+}
+
+/*Grand Canyon*/
+#gCNP {
+    
+    border: 1px solid green;
+    width: 1450px;
+    height: 950px;
+    padding: 25px;
+}
+.column1 {
+    float: left;
+    width: 50%;
+}
+.column2 {
+    float: right;
+    width: 40%;
+}
+.row1::after {
+    content:"";
+    clear: both;
+    display: table;
+}
+
+/*Redwoods*/
+#rNP {
+    border: 1px solid red;
+    width: 1450px;
+    height: 1000px;
+    padding: 25px;
+}
+.column3 {
+    float: left;
+    width: 50%;
+}
+.column4 {
+    float: right;
+    width: 40%;
+}
+.row2::after {
+    content:"";
+    clear: both;
+    display: table;
+}
+#redwoods {
+    color: red;
+    margin-left: 50px;
+}
+
+/*Glacier National Park*/
+#gNP {
+    border: 1px solid blue;
+    width: 1450px;
+    height: 1000px;
+    padding: 25px;
+}
+.column5 {
+    float: left;
+    width: 50%;
+}
+.column6 {
+    float: right;
+    width: 50%;
+}
+row3::after {
+    content:"";
+    clear: both;
+    display: table;
+}
+#glacier {
+    color: blue;
+}
+
+/*West Baden Springs Hotel*/
+#wBSH {
+    border: 1px solid black;
+    width: 1450px;
+    height: 1100px;
+    padding: 25px;
+}
+.column7 {
+    float: left;
+    width: 50%;
+}
+.column8 {
+    float: right;
+    width: 50%;
+}
+row4::after {
+    content:"";
+    clear: both;
+    display: table;
+}
+#westBadenSpringsHotel {
+    margin-left: 50px;
+}
+
+footer {
+    text-align: center;
+}
